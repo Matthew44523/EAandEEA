@@ -19,7 +19,7 @@ public class EEA {
 
         }
 
-    static int eea ( int n, int a)
+    static int eea ( int a, int n)
     {
         for (int X = 1; X < a; X++)
             if (((n % a) * (X % a)) % a == 1)
